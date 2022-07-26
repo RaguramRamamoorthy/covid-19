@@ -42,14 +42,7 @@ def write(df):
     st.write("This app was built in Streamlit and all visualisations were generated using Plotly Express or Plotly Graph \
     Objects. The code for the app is freely available on the app's repo on Github.")
 
-    st.header('Github Links')
-    st.write('OWID Repository : https://github.com/owid/covid-19-data')
-    st.write('Forked Repository : https://github.com/kitsamho/covid-19-data')
-    st.write('Streamlit.py file : https://github.com/kitsamho/covid-19-data/blob/master/covid_streamlit_app.py')
+    st.header('About The Original Creator')
+    st.write('The creator of this app is Sam Ho ,a Data scientist at Shutterstock AI')
 
-    st.header('About The Original Creator of this App | Contact Details')
-    st.write('My name is Sam Ho. I am a Data scientist at Shutterstock AI')
-
-    st.write('I would love to know what you thought of this app! If you have any comments or suggestions for improvement\
-             (I am pretty sure there will be some bugs) please hit me up on LinkedIn: https://www.linkedin.com/in/kitsamho/')
     return
